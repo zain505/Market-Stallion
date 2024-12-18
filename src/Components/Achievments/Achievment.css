@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.achievment-wrapper {
+    height: auto;
+    width: 100%;
+    background-image: url("../../media/bridge.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-bottom: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievment-outer {
+    height: 100%;
+    width: 100%;
+}
+
+.achievment-heading {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.yellow-line {
+    height: 2.5px;
+    width: 200px;
+    background-color: #ffeb3b;
+}
+
+.achievment-heading-text {
+    width: 100%;
+    height: 100px;
+}
+
+.achievment-heading-text p { 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase; 
+    font-family: "Poppins", system-ui;
+    color: white;
+}
+.achiev-numbers{
+    width: 100%;
+    height: auto;
+    
+}
+.achiev-sec-outer{
+    width: 100%;
+    height: 250px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.achiev-sec-outer .number{
+    font-weight: 700;
+    font-size: 65px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+}
+.achiev-sec-outer .achiev-type{
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    text-transform: capitalize;
+}

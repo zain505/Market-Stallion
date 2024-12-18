@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.mobile-menu-outer {
+    width: 100%;
+    height: 90%;
+    background-color: #ffeb3b;
+    position: fixed;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    transition: height 5s;
+    justify-content: space-between;
+}
+
+.mobile-cross {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.mobile-cross p {
+    text-align: right;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.mobile-menu-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mobile-menu-items-list {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+}
+
+.mobile-menu-items-list li {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    text-decoration: underline;
+    padding-bottom: 25px;
+}
+.mobile-menu-items-list li:first-child {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+.navbar-outer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: #ffeb3b;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    box-shadow: 0px 0px 19px #000000;
+}
+
+.navbar {
+    height: auto;
+    width: 95%;
+    background-color: #ffeb3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .menu-items-list {
+        display: none;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 100px;
+        margin-top: 87px;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: -webkit-fill-available;
+        top: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .hero-middle {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        overflow: hidden;
+    }
+
+    .line {
+        height: 1.5px;
+        width: 200px;
+        background-color: #ffeb3b;
+        display: none;
+    }
+
+    .hero-heading {
+        font-size: 23px;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-family: "Poppins", system-ui;
+        font-style: normal;
+        color: #fff;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .bussiness-slogan {
+        /* width: 300px;
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 10px; */
+        display: none;
+    }
+
+    .dispatch-button {
+        width: 188px;
+        height: 33px;
+        background-color: #ffeb3b;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .bussiness-slogan-text {
+        text-align: center;
+        margin: 0;
+        font-size: 13px;
+        font-family: "Poppins", system-ui;
+        font-style: normal;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .dispatch-section p {
+        text-transform: capitalize;
+        font-family: "Poppins", system-ui;
+        font-style: normal;
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .social-icon span {
+        font-size: 18px;
+        color: #ffeb3b;
+        cursor: pointer;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+
+    .burger-btn span {
+        font-size: 30px;
+    }
+
+   
+    .hero-footer {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0px;
+        position: relative;
+    }
+    .social-and-line {
+        display: flex;
+        align-items: center;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .mobile-menu-bottom{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .text-outer-bottom{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .text-outer-bottom p{
+        color: rgb(181, 181, 181);
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: underline;
+    }
+}

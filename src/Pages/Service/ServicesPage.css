@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.service-page-wrapper {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.service-page-intro {
+    width: 100%;
+    height: 500px;
+    background-color: aliceblue;
+    background-image: url("../../media//dispatch_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+
+}
+
+.service-overlay {
+    background-color: rgba(0, 0, 0, 0.727);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    width: 50%;
+    height: 50%;
+    /* background-color: white; */
+}
+
+.text-header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.text-header p {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Poppins", system-ui;
+    color: #ffeb3b;
+}
+
+.text-description {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.text-description p {
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: "Poppins", system-ui;
+    color: #ffeb3b;
+}
+
+.services-section-wrapper {
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.service-detail-title {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.service-detail-title p {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    color: #ffeb3b;
+}
+
+.service-detail-outer {
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.rate-negotiate {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/rate_negotiate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.loading-search {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/load_searching.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.planning {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/planning.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.extra-mile {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/extra_mile.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.iou {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/billing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.support {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/support.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.problem-solving {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/problem.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ifta {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../media/IFTA.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.service-detail-overlay {
+    background-color: rgba(0, 0, 0, 0.727);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-main-text {
+    height: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.detail-main-text {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    color: #ffeb3b;
+}
+
+.hover-overlay-content {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    transform: translateX(-620px);
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    display: flex;
+}
+
+.rate-negotiate:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.loading-search:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.planning:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.extra-mile:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.iou:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.support:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.problem-solving:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.ifta:hover .hover-overlay-content {
+    transform: translateX(0px);
+    background-color: #ffeb3b;
+}
+
+.overlay-content-left {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-content-right {
+    width: 20%;
+    height: 100%;
+    background-image: url("../../media/arrow.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    transition-duration: 1.5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+/* .rate-negotiate:hover .overlay-content-right{
+    opacity: 0;
+} */
+.overlay-content-left-text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+
+.overlay-content-left-text .text1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", system-ui;
+    color: black;
+}
+
+.overlay-content-left-text .text2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Poppins", system-ui;
+    color: black;
+}
+
+
+@media screen and (max-width: 500px) {
+    .text-header p {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-family: "Poppins", system-ui;
+        color: #ffeb3b;
+    }
+
+    .text-content {
+        width: 95%;
+        height: 50%;
+    }
+
+    .text-description p {
+        font-size: 13px;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-family: "Poppins", system-ui;
+        color: #ffeb3b;
+    }
+
+    .hover-overlay-content {
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        position: absolute;
+        transform: translateX(-300px);
+        transition-duration: 1s;
+        transition-property: all;
+        transition-timing-function: ease-in-out;
+        display: flex;
+    }
+    .overlay-content-left-text .text1 {
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: "Poppins", system-ui;
+        color: black;
+    }
+    .overlay-content-left-text .text2 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "Poppins", system-ui;
+        color: black;
+    }
+}
